@@ -1,8 +1,8 @@
-include "main.h"
+#include "main.h"
 
 /**
- *_isalpha-Checks for alphabet character
- * @: The character can be checked
+ * _isalpha - Checks for alphabet character
+ * @c: The character can be checked
  * Return: 1 for alphabetic character or 0 for anything else
  */
 
