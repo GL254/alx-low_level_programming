@@ -1,3 +1,8 @@
+/*
+ * File: 101-natural.c
+ * Auth: GL254
+ */
+
 #include <stdio.h>
 
 /**
