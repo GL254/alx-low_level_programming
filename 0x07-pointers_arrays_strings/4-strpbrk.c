@@ -2,8 +2,8 @@
 
 /**
  * _strpbrk - function locates the first occurrence in the string
- * @s - input
- * @accept - input
+ * @s: input
+ * @accept: input
  * Return: always 0 (success)
  */
 char *_strpbrk(char *s, char *accept)
