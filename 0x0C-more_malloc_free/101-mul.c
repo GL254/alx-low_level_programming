@@ -3,9 +3,8 @@
 #include "main.h"
 
 #define ERR_MSG "Error"
-
 /**
- * is_digit - checks if a string contains a non-digit char
+ * is_digit - checks if a string contains a non-digit character
  * @s: string to be evaluated
  *
  * Return: 0 if a non-digit is found, 1 otherwise
@@ -20,9 +19,10 @@ int is_digit(char *s)
 			return (0);
 		i++;
 	}
+	return (1);
 }
 /**
- * _strlen - returns the len. of a string
+ * _strlen - returns the length of a string
  * @s: string to evaluate
  *
  * Return: the length of the string
@@ -38,7 +38,7 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- * errors - handles errors for main function
+ *  errors - handles errors for main
  */
 void errors(void)
 {
@@ -93,6 +93,5 @@ int main(int argc, char *argv[])
 		_putchar('0');
 	_putchar('\n');
 	free(result);
-
 	return (0);
 }
