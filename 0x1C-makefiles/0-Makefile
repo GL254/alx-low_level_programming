@@ -1,0 +1,8 @@
+# This makefile compiles to
+# main.c and school.c
+#+ to school
+
+all: school
+
+school: main.c school.c
+	gcc main.c school.c -o school

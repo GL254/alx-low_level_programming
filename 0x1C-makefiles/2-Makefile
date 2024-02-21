@@ -1,0 +1,11 @@
+# This makefile compiles all
+# .c files to object files
+# (.o) then to the executable school
+
+CC=gcc
+SRC=main.c school.c
+OBJ=$(SRC:.c=.o)
+NAME=school
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
